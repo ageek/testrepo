@@ -1,4 +1,8 @@
+# The script relies on solrpy pyhton library
+# to add document to solr index
+
 import solr
+
 
 # create a connection to a solr server
 s = solr.SolrConnection('http://x.x.x.x:8983/solr/posts')
